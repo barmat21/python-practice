@@ -13,5 +13,3 @@ print(f"Курс евро: {eur} руб.")
 with open("курс.txt", "w", encoding="utf-8") as f:
     f.write(f"Курс доллара: {usd} руб.\n")
     f.write(f"Курс евро: {eur} руб.\n")
-
-print("Данные сохранены в файл курс.txt")
